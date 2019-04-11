@@ -3,7 +3,8 @@ body, html {
    background-color: rgb(39, 32, 28);
 }
 
-#content {
+/* Handle the toucan background and main wrapper */
+#contentDiv {
    padding: 25px;
    color: rgb(255, 255, 255);
    text-shadow: 1px 1px 2px rgb(0, 0, 0);
@@ -15,7 +16,8 @@ body, html {
    line-height: 1.8;
 }
 
-.box {
+/* Handle the two boxes */
+.boxDiv {
    border: none;
    border-radius: 8px;
    padding: 18px;
@@ -24,6 +26,11 @@ body, html {
    margin-bottom: 25px;
 }
 
+#allanHeading, #allanAnswer {
+   display: none;
+}
+
+/* The one and only */
 #imgAllan {
    border-top: 1px solid rgb(0, 48, 0);
    border-left: 1px solid rgb(0, 48, 0);
@@ -31,9 +38,22 @@ body, html {
    border-bottom: none;
    border-top-left-radius: 8px;
    border-top-right-radius: 8px;
+   margin-top: 10px;
 }
 
-#button {
+/* Input field for question */
+#questionInput {
+   width: 200px;
+   border: 1px solid rgb(0, 48, 0);
+   padding: 7px;
+   text-align: center;
+   background-color: rgba(232, 255, 181, 0.938);
+   font-style: italic;
+   display: block;
+}
+
+/* Button to ask a question */
+#askQuestionButton {
    background-color: rgba(220, 255, 144, 0.6);
    border-top: none;
    border-left: 1px solid rgb(0, 48, 0);
@@ -54,14 +74,43 @@ body, html {
    margin-bottom: 15px;
 }
 
-#button:hover {
+#askQuestionButton:hover {
    background-color: rgba(240, 255, 208, 0.6);
    font-weight: bold;
 }
 
-#footer {
+/* Button appears when the answer appears */
+#newQuestionButton {
+   background-color: rgba(220, 255, 144, 0.6);
+   border-top: 1px solid rgb(0, 48, 0);
+   border-left: 1px solid rgb(0, 48, 0);
+   border-right: 1px solid rgb(0, 48, 0);
+   border-bottom: 1px solid rgb(0, 48, 0);
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   color: rgb(0, 29, 0);
+   padding: 10px;
+   text-shadow: 1px 1px 2px rgb(187, 255, 181);
+   text-align: center;
+   text-decoration: none;
+   display: none;
+   font-size: 22px;
+   width: 200px;
+   cursor: pointer;
+   line-height: 1.4;
+   margin-bottom: 15px;
+}
+
+#newQuestionButton:hover {
+   background-color: rgba(240, 255, 208, 0.6);
+   font-weight: bold;
+}
+
+/* Credits */
+#footerDiv {
    position: fixed;
    bottom: 0;
    right: 20px;
    opacity: 0.7;
+   width: fit-content;
 }
