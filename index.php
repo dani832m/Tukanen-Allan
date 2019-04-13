@@ -1,4 +1,5 @@
 <?php
+// Headings
 $allanHeadings = array(
    'Allans svar til dig',
    'Allan ved besked',
@@ -9,6 +10,7 @@ $allanHeadings = array(
    'Oraklets råd er klart'
 );
 
+// Answers
 $allanAnswers = array(
    'Oraklet siger ja! Ingen tvivl om det.',
    'Det bliver et nej fra Allan!',
@@ -39,9 +41,6 @@ $allanAnswers = array(
    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
    <!-- Bootstrap 4.0 -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-   <!-- SCRIPTS -->
-   <!-- Custom Scripts -->
-   <script src="script.js"></script>
 </head>
 <body>
    <div id="contentDiv">
@@ -54,7 +53,7 @@ $allanAnswers = array(
       <div class="boxDiv">
          <h2 id="allanHeading"><?php echo $allanHeadings[rand(0, count($allanHeadings) - 1)]; ?></h2>
          <p id="allanAnswer"><?php echo $allanAnswers[rand(0, count($allanAnswers) - 1)]; ?></p>
-         <img id="imgAllan" src="allan.png" width="200px" height="160px" alt="Tukanen Allan"><br>
+         <img id="imgAllan" src="images/allan.png" width="200px" height="160px" alt="Tukanen Allan"><br>
          <input id="questionInput" type="text" placeholder="Skriv dit spørgsmål...">
          <button id="askQuestionButton" onClick="getAnswer()">Spørg Allan</button>
          <button id="newQuestionButton" onClick="history.go(0)">Nyt spørgsmål?</button>
@@ -65,5 +64,7 @@ $allanAnswers = array(
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <!-- Custom script -->
+   <script src="script.js"></script>
 </body>
 </html>
