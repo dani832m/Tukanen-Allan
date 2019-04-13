@@ -11,10 +11,11 @@ Denne web-applikation blev lavet for sjov for at træne mine færdigheder i bl.a
 Jeg ejer ikke rettighederne til de anvendte billeder.
 
 ### Screenshots
-Desktop view:
+**Desktop view:**
 
 [![Desktop View](https://github.com/dani832m/Tukanen_Allan/blob/master/screenshots/screenshot_desktop_v1.png?raw=true)](http://n4.dk/allan/)
 
-Mobile view:
+**Mobile view:**
 
 [![Mobile View](https://github.com/dani832m/Tukanen_Allan/blob/master/screenshots/screenshot_mobile_v1.png?raw=true)](http://n4.dk/allan/)
+[![Mobile View](https://github.com/dani832m/Tukanen_Allan/blob/master/screenshots/screenshot_mobile2_v1.png?raw=true)](http://n4.dk/allan/)
