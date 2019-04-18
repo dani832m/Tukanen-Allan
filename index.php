@@ -24,7 +24,8 @@ $allanAnswers = array(
    'NIX, DU! ALDRIG!',
    'Hmmmm... Allan er sulten!',
    'Skru op for varmen. Alting løser sig.',
-   'Er du klar over hvad det koster? Spar lige op først!'
+   'Er du klar over, hvad det koster? Spar lige op først!',
+   'Er du sikker på, det er lovligt? Allan siger no go!'
 );
 ?>
 <!DOCTYPE html>
@@ -46,8 +47,10 @@ $allanAnswers = array(
    <div id="contentDiv">
       <div class="boxDiv">
          <h1>Spørg Tukanen Allan</h1>
-         <p>Allan er intet mindre end et orakel. Han har svar på stort set alt.<br>
-         Stil ham et spørgsmål og tryk på knappen, så vil han vil guide dig gennem livets problemer.</p>
+         <p>
+            Allan er intet mindre end et orakel. Han har svar på stort set alt.<br>
+            Stil ham et spørgsmål og tryk på knappen, så vil han vil guide dig gennem livets problemer.
+         </p>
       </div>
       <!-- Handles the Magic of Allan's Knowledge -->
       <div class="boxDiv">
